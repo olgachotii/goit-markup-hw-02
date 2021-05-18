@@ -1,0 +1,89 @@
+:root {
+  --primaru-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-first-color: #2196f3;
+  --wight-color: #ffffff;
+  --section-second-color: #f5f4fa;
+  --footer-background-color: #2f303a;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: var(--wight-color);
+  color: var(--primaru-text-color);
+}
+
+/* heder */
+
+.logo {
+  color: var(--accent-first-color);
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.auth-nav .link {
+  color: var(--primaru-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-first-color);
+}
+
+.site-nav .active {
+  color: var(--accent-first-color);
+}
+
+/* hero */
+
+.hero {
+  background-color: var(--footer-background-color);
+}
+
+.hero .title {
+  color: var(--wight-color);
+}
+
+.hero .buton {
+  color: var(--wight-color);
+  background-color: var(--accent-first-color);
+}
+
+/* section */
+
+.section .title {
+  color: var(--title-text-color);
+}
+
+.comand-background {
+  background-color: var(--section-second-color);
+}
+
+.section .button {
+  color: var(--title-text-color);
+  background-color: var(--section-second-color);
+}
+
+.list-works .button:hover,
+.list-works .button:focus {
+  color: var(--wight-color);
+  background-color: var(--accent-first-color);
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--footer-background-color);
+}
+
+.footer .superscription {
+  color: var(--wight-color);
+}
+
+.footer-mail,
+.footer-tel {
+  color: var(--footer-link-color);
+}
